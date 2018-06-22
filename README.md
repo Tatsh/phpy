@@ -45,7 +45,11 @@ $sl = slice(2); // stop at 2nd index
 hello([1, 2, 3, 4], $sl); // [1, 2]
 ```
 
-# Run the tests
+# Contributing
+
+This project is on [GitLab](https://gitlab.com/Tatsh/phpy). File issues and merge requests there.
+
+# Test suite
 
 From the project root:
 
