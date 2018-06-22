@@ -1,0 +1,23 @@
+{
+    "name": "tatsh/phpy",
+    "description": "Python built-in functions ported to PHP.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Udvare",
+            "email": "audvare@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/php-code-coverage": "^5.3"
+    },
+    "autoload": {
+        "files": ["builtin.php"]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
